@@ -41,7 +41,7 @@ Class snippet I like to use.
 			"\t% $TM_FILENAME_BASE Methods:",
 			"\t%",
 			"\t%   $CURRENT_MONTH_NAME $CURRENT_YEAR",
-			"\t%   Ville Heikkinen\n",
+			"\t%   FirstName LastName\n",
 			"\tproperties (Access = public)",
 			"\t\tProperty1",
 			"\tend\n",
