@@ -68,10 +68,9 @@ classdef HoldAndDragTemplate < handle
 
                 if obj.moveCamera
                     moveMode = "movetarget";
-                    
                 elseif obj.rotateCamera
                     moveMode = "fixtarget";
-                dx = 5*dx;
+                    dx = 5*dx;
                     dy = 5*dy;
                 else
                     error("Neither rotate or move mode is activated, should not be here");
@@ -86,7 +85,7 @@ classdef HoldAndDragTemplate < handle
 
             currentObject = getCurrentObject("Type", "axes");
             if ~isempty(currentObject)
-                % Mouse was clicked on top of the simulation axis
+                % Mouse was clicked on top of the axis
                 clickType = obj.fig.SelectionType;
 
                 if strcmpi(clickType, "normal")
